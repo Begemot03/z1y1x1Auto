@@ -1,0 +1,1450 @@
+<html><head><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+        <meta charset="utf-8">
+        <title>Z1Y1X1 - Главная</title>
+
+        <meta name="apple-mobile-web-app-title" content="Z1Y1X1">
+        <meta name="application-name" content="Z1Y1X1">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="theme-color" content="#8D5BFF">
+
+        <link rel="manifest" href="/assets/manifest.json">
+        <link rel="shortcut icon" href="/assets/images/favicon.png">
+        <link rel="apple-touch-icon" href="/assets/images/favicon.png">
+        <link rel="mask-icon" href="/assets/images/favicon.png" color="#8D5BFF">
+        <meta property="og:image" content="/assets/images/preview.png">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4-4.0.0/dt-1.10.16/sc-1.4.4/datatables.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.css">
+        <link rel="stylesheet" href="/assets/css/bootstrap.css">
+        <link rel="stylesheet" href="/assets/css/style.css?14">
+        <link rel="stylesheet" href="/assets/css/z1font.css">
+        <link rel="stylesheet" href="/assets/css/panel.css?35">
+        <style>.winter-logo img { width: 40px; margin-right: 1px; margin-top: -15px; }.btn-sm{padding: 8px 23px!important;}</style>
+    <script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-P6SNQ9C"></script><script async="" src="https://call.chatra.io/chatra.js"></script><style>@-webkit-keyframes chatra-chat-appear-from-bottom {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(20px) scale(.97);
+    transform: translateY(20px) scale(.97);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes chatra-chat-appear-from-bottom {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(20px) scale(.97);
+    transform: translateY(20px) scale(.97);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);
+  }
+}
+@-webkit-keyframes chatra-chat-appear-from-top {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-20px) scale(.97);
+    transform: translateY(-20px) scale(.97);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes chatra-chat-appear-from-top {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-20px) scale(.97);
+    transform: translateY(-20px) scale(.97);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);
+  }
+}
+@-webkit-keyframes chatra-chat-appear {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(.95);
+    transform: scale(.95);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes chatra-chat-appear {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(.95);
+    transform: scale(.95);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes chatra-round-button-appear {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes chatra-round-button-appear {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes chatra-tab-button-appear {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes chatra-tab-button-appear {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes chatra-transparent-appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes chatra-transparent-appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+html.chatra-mobile-widget-expanded,
+body.chatra-mobile-widget-expanded {
+  overflow: hidden !important;
+  height: 100% !important;
+  width: 100% !important;
+  position: fixed !important;
+  margin: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+#chatra {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  max-height: calc(100% - 40px);
+  max-width: calc(100% - 40px);
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  -webkit-transition-property: visibility,opacity;
+  transition-property: visibility,opacity;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: auto;
+  height: auto;
+  min-height: 0;
+  min-width: 0;
+  display: block;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+}
+@media print {
+  #chatra {
+    display: none;
+  }
+}
+#chatra__iframe-wrapper,
+#chatra__iframe {
+  left: 0 !important;
+  top: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  min-height: 100% !important;
+  max-height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  background: transparent !important;
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+}
+#chatra__iframe-wrapper {
+  position: absolute;
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1),0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 3px rgba(0,0,0,0.1),0 0 10px rgba(0,0,0,0.3);
+  overflow: hidden !important;
+}
+#chatra #chatra__iframe-wrapper,
+#chatra.chatra--safari #chatra__iframe,
+#chatra.chatra--webkit.chatra--expanded #chatra__iframe {
+  border-radius: 12px;
+}
+#chatra.chatra--mobile-widget:not(.chatra--expanded),
+#chatra.chatra--mobile-widget:not(.chatra--expanded) * {
+  cursor: pointer;
+}
+#chatra.chatra--safari #chatra__iframe {
+  -webkit-mask-image: -webkit-gradient(linear,left top, left bottom,from(#000),to(#000));
+  -webkit-mask-image: linear-gradient(#000,#000);
+  mask-image: -webkit-gradient(linear,left top, left bottom,from(#000),to(#000));
+  mask-image: linear-gradient(#000,#000);
+  -webkit-mask-position: 50% 50%;
+  mask-position: 50% 50%;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+#chatra:not(.chatra--expanded) #chatra__iframe-wrapper {
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+}
+#chatra:not(.chatra--expanded):hover #chatra__iframe-wrapper {
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1),0 0 15px rgba(0,0,0,0.4);
+  box-shadow: 0 0 3px rgba(0,0,0,0.1),0 0 15px rgba(0,0,0,0.4);
+}
+#chatra.chatra--visible {
+  visibility: visible;
+  opacity: 1;
+}
+#chatra.chatra--animating {
+  -webkit-transition: 350ms cubic-bezier(.25,.1,0,1);
+  transition: 350ms cubic-bezier(.25,.1,0,1);
+  -webkit-transition-property: height,width,max-width,max-height,top,bottom,left,right,-webkit-transform;
+  transition-property: height,width,max-width,max-height,top,bottom,left,right,-webkit-transform;
+  transition-property: height,width,max-width,max-height,top,bottom,left,right,transform;
+  transition-property: height,width,max-width,max-height,top,bottom,left,right,transform,-webkit-transform;
+}
+#chatra.chatra--style-round:not(.chatra--expanded) #chatra__iframe-wrapper,
+#chatra.chatra--style-round.chatra--safari:not(.chatra--expanded) #chatra__iframe {
+  border-radius: 50%;
+}
+#chatra.chatra--custom-button:not(.chatra--expanded) {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none;
+  -webkit-transition: none;
+  transition: none;
+}
+#chatra.chatra--fast-toggle.chatra--style-round:not(.chatra--expanded) #chatra__iframe-wrapper {
+  -webkit-animation: chatra-round-button-appear 150ms ease-out 50ms both;
+  animation: chatra-round-button-appear 150ms ease-out 50ms both;
+}
+#chatra.chatra--fast-toggle.chatra--style-tab:not(.chatra--expanded) #chatra__iframe-wrapper {
+  -webkit-animation: chatra-tab-button-appear 150ms ease-out 50ms both;
+  animation: chatra-tab-button-appear 150ms ease-out 50ms both;
+}
+#chatra.chatra--fast-toggle.chatra--expanded #chatra__iframe-wrapper {
+  -webkit-animation: chatra-chat-appear 150ms ease-out 50ms both;
+  animation: chatra-chat-appear 150ms ease-out 50ms both;
+}
+#chatra.chatra--fast-toggle.chatra--transparent #chatra__iframe-wrapper {
+  -webkit-animation-name: chatra-transparent-appear;
+  animation-name: chatra-transparent-appear;
+}
+#chatra.chatra--fast-toggle.chatra--expanded:not(.chatra--mobile-widget):not(.chatra--transparent) #chatra__iframe-wrapper {
+  -webkit-animation-name: chatra-chat-appear-from-bottom;
+  animation-name: chatra-chat-appear-from-bottom;
+}
+#chatra.chatra--fast-toggle.chatra--pos-top.chatra--expanded:not(.chatra--mobile-widget):not(.chatra--transparent) #chatra__iframe-wrapper {
+  -webkit-animation-name: chatra-chat-appear-from-top;
+  animation-name: chatra-chat-appear-from-top;
+}
+#chatra.chatra--expanded #chatra__iframe-wrapper {
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1),0 5px 50px rgba(0,0,0,0.2);
+  box-shadow: 0 0 3px rgba(0,0,0,0.1),0 5px 50px rgba(0,0,0,0.2);
+}
+#chatra.chatra--side-bottom {
+  bottom: 20px;
+}
+#chatra.chatra--side-left {
+  left: 20px;
+}
+#chatra.chatra--side-left.chatra--style-tab:not(.chatra--expanded) {
+  left: 10px;
+}
+#chatra.chatra--side-right {
+  right: 20px;
+}
+#chatra.chatra--side-right.chatra--style-tab:not(.chatra--expanded) {
+  right: 10px;
+}
+#chatra.chatra--side-left.chatra--expanded {
+  bottom: 20px;
+  left: 20px;
+}
+#chatra.chatra--side-right.chatra--expanded {
+  bottom: 20px;
+  right: 20px;
+}
+#chatra.chatra--pos-right {
+  right: 20px;
+}
+#chatra.chatra--pos-left {
+  left: 20px;
+}
+#chatra.chatra--pos-center {
+  left: 50%;
+}
+#chatra.chatra--pos-top.chatra--style-tab:not(.chatra--expanded) {
+  bottom: 100%;
+  margin-bottom: -20px;
+}
+#chatra.chatra--pos-top.chatra--style-round:not(.chatra--expanded) {
+  top: 20px;
+}
+#chatra.chatra--pos-bottom:not(.chatra--expanded) {
+  bottom: 20px;
+}
+#chatra.chatra--pos-middle:not(.chatra--expanded) {
+  bottom: 50%;
+}
+#chatra.chatra--mobile-widget.chatra--expanded:not(.chatra--transparent) {
+  max-width: none;
+  max-height: none;
+  top: 0 !important;
+  bottom: 0 !important;
+}
+#chatra.chatra--mobile-widget.chatra--expanded #chatra__iframe-wrapper,
+#chatra.chatra--safari.chatra--mobile-widget.chatra--expanded #chatra__iframe,
+#chatra.chatra--webkit.chatra--mobile-widget.chatra--expanded #chatra__iframe {
+  border-radius: .1px;
+}
+#chatra.chatra--mobile-widget.chatra--expanded.chatra--pos-right:not(.chatra--transparent) {
+  right: 0;
+}
+#chatra.chatra--mobile-widget.chatra--expanded.chatra--pos-left:not(.chatra--transparent) {
+  left: 0;
+}
+#chatra.chatra--mobile-widget.chatra--expanded.chatra--pos-center:not(.chatra--transparent) {
+  left: 0;
+}
+#chatra.chatra--mobile-widget.chatra--expanded.chatra--side-right:not(.chatra--transparent) {
+  right: 0;
+}
+#chatra.chatra--mobile-widget.chatra--expanded.chatra--side-left:not(.chatra--transparent) {
+  left: 0;
+}
+#chatra.chatra--transparent.chatra--expanded {
+  bottom: 10px;
+}
+#chatra.chatra--transparent.chatra--expanded #chatra__iframe-wrapper {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#chatra.chatra--side-left.chatra--transparent,
+#chatra.chatra--pos-left.chatra--transparent {
+  left: 10px;
+}
+#chatra.chatra--side-right.chatra--transparent,
+#chatra.chatra--pos-right.chatra--transparent {
+  right: 10px;
+}
+#chatra.chatra--mobile-widget.chatra--transparent {
+  max-height: 300px;
+}
+#chatra.chatra--bg-white {
+  background: #fff;
+}
+</style></head>
+    <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+        <div class="container mt-4">
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <a class="logo" href="/panel" tabindex="0">
+                            <img src="/assets/images/logo.svg"> Z1Y1X1
+                        </a>
+                        <button class="navbar-toggler pull-right d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="z1 z1-menu"></i>
+                        </button>
+                    </div>
+                    <div class="col-md-6 text-md-right news my-auto">
+                                                <span class="theme-day mr-2" onclick="window.open('https://adstools.ru');" role="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Биржа нативной рекламы">
+                           <img src="https://i.imgur.com/DySRySd.png" width="25px">
+                        </span>
+                        <span class="theme-day" onclick="changeTheme()" role="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Изменить внешний вид">
+                           <img src="/assets/images/sun.svg?2" width="25px">
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-5 pr-md-4 navbar-collapse collapse d-lg-block" id="navbarNav">
+                        <div class="card">
+                            <span class="theme-day-nav" onclick="changeTheme()" role="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Изменить внешний вид">
+                               <img src="/assets/images/sun.svg?2" width="25px">
+                            </span>
+                            <div class="row user-block">
+                                <div class="col-md-6 col-sm-12">
+                                    <div>nurlan21</div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 text-sm-left text-md-right my-auto">
+                                    <a href="/panel/main/signout">Выход</a>
+                                </div>
+                            </div>
+                            <ul class="menu">
+                                <li class="font-weight-bold">
+                                    <a tabindex="1" href="/panel">Список задач</a>
+                                </li>
+                                <li>
+                                    <a tabindex="2" href="/panel/autolikes">Постхантеры (автонакрутка)</a>
+                                </li>
+                                <li>
+                                    <a tabindex="3" href="/panel/scenarios">Сценарии</a>
+                                </li>
+                                <li>
+                                    <a tabindex="4" href="/panel/smartintervals">Умные интервалы</a>
+                                </li>
+                                <li>
+                                    <a tabindex="5" href="/panel/comments">Создать свои комментарии</a>
+                                </li>
+                                <li>
+                                    <a tabindex="6" href="/panel/money">Баланс</a>
+                                </li>
+                                <li>
+                                    <a tabindex="7" href="/panel/faq">Вопросы и ответы</a>
+                                </li>
+                                <li>
+                                    <a tabindex="8" href="/panel/settings">Настройки</a>
+                                </li>
+                                <li><hr></li>
+
+                                <li>
+                                    <a href="https://adstools.ru/" target="_blank" tabindex="11">
+                                        <b>Биржа нативной рекламы</b>
+                                        <img src="https://i.imgur.com/DySRySd.png">
+                                    </a>
+                                </li>
+                                                                <li>
+                                    <a target="_blank" href="https://api.z1y1x1.ru/" tabindex="10">
+                                        Документация API
+                                        <img src="/assets/images/menu-cog.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://z1y1x1.ru/panel/settings/redesign" tabindex="12">
+                                        Вернуть старый дизайн
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://t.me/z1y1x1" target="_blank" tabindex="13">
+                                        Telegram-канал
+                                        <img src="/assets/images/menu-telegram.svg">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-8 mb-5">
+                        <div class="header mb-4">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="mb-0">ГЛАВНАЯ</h4>
+                                </div>
+                                <div class="col-md-6 my-auto">
+                                    <h5 class="mb-0">БОЛЬШЕ ЛАЙКОВ - ТОЛЬКО ЛАЙКИ!</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="orderApp"><div class="row"><div class="col-md-6 mb-4"><div class="card card-money"><div class="row"><div class="col-9"><h6>Баланс вашего счета</h6> <h3>8721.72 <img src="/assets/images/ruble.svg"></h3></div> <div class="col-3 my-auto"><a href="/panel/money" class="btn-money-pay"><i class="z1 z1-plus"></i></a></div></div></div></div> <div class="col-md-6 mb-4"><div class="card order-widget-card"><center><a href="/panel/tasks/add" class="z1-btn z1-btn-primary">
+                        СОЗДАТЬ ЗАДАЧУ
+                    </a></center></div></div> <div class="col-md-12 mb-4"><div class="card"><div class="row mb-3"><div class="col-md-6"><h4 class="z1-card-header">
+                            Ваши задачи
+                        </h4></div> <div class="col-md-6 my-auto text-md-right text-sm-left"><div class="dropdown"><button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="z1-btn-dropdown dropdown-toggle">
+                                Все задачи
+                            </button> <div aria-labelledby="dropdownMenuButton" class="dropdown-menu"><a href="#" class="dropdown-item">
+                                    Все задачи
+                                </a><a href="#" class="dropdown-item">
+                                    Лайки
+                                </a><a href="#" class="dropdown-item">
+                                    Комментарии
+                                </a><a href="#" class="dropdown-item">
+                                    Репосты
+                                </a><a href="#" class="dropdown-item">
+                                    Youtube просмотры
+                                </a><a href="#" class="dropdown-item">
+                                    Лайки подписчиков
+                                </a><a href="#" class="dropdown-item">
+                                    Интервальные комментарии
+                                </a><a href="#" class="dropdown-item">
+                                    Лайки комментариев
+                                </a><a href="#" class="dropdown-item">
+                                    Комментарии с ответами
+                                </a><a href="#" class="dropdown-item">
+                                    Умные лайки
+                                </a><a href="#" class="dropdown-item">
+                                    Умные комментарии
+                                </a><a href="#" class="dropdown-item">
+                                    Умные репосты
+                                </a><a href="#" class="dropdown-item">
+                                    Умные комментарии с ответами
+                                </a><a href="#" class="dropdown-item">
+                                    Instagram лайки
+                                </a><a href="#" class="dropdown-item">
+                                    Сценарии
+                                </a></div></div></div></div> <div id="table_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="table_length"><label>Показать <select name="table_length" aria-controls="table" class="custom-select custom-select-sm form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> записей</label></div></div><div class="col-sm-12 col-md-6"><div id="table_filter" class="dataTables_filter"><label>Поиск:<input type="search" class="form-control form-control-sm" placeholder="12345 или wall-11_11" aria-controls="table"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="table" class="table orders-table dataTable no-footer dtr-inline" role="grid" aria-describedby="table_info" style="width: 658px;"><thead><tr role="row"><th scope="col" data-orderable="false" class="text-center sorting_disabled" rowspan="1" colspan="1" style="width: 39px;" aria-label="#">#</th><th scope="col" class="sorting" tabindex="0" aria-controls="table" rowspan="1" colspan="1" style="width: 100px;" aria-label="Задача: активировать для сортировки столбца по возрастанию">Задача</th><th scope="col" class="sorting" tabindex="0" aria-controls="table" rowspan="1" colspan="1" style="width: 116px;" aria-label="Выполнено: активировать для сортировки столбца по возрастанию">Выполнено</th><th scope="col" class="sorting" tabindex="0" aria-controls="table" rowspan="1" colspan="1" style="width: 74px;" aria-label="Статус: активировать для сортировки столбца по возрастанию">Статус</th><th scope="col" data-orderable="false" data-classname="test" class="text-right btns-right sorting_disabled" rowspan="1" colspan="1" style="width: 155px;" aria-label="Управление">Управление</th></tr></thead> <tbody><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-45844365_930373"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-99.userapi.com/s/v1/if1/7rmDMbJNDHI8dEe76HFzDmN00jpEgyB24TIQXzZVRZ5wN6NLFyBqL5IPT8MCxvwtrU9y-6cb.jpg?size=200x200&amp;quality=96&amp;crop=7,388,755,755&amp;ava=1"></center></a></td><td>11:29 15.07 <a target="_blank" href="https://vk.com/wall-45844365_930373"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30369727)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-38127593_270179"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-99.userapi.com/s/v1/if1/aMn50XBmxSnTzyyAnWIwVsTdHdAJvBvOganYqixiIFpx0VSbMz3XzhcLYoyKdvlLwmQ8HSRQ.jpg?size=200x200&amp;quality=96&amp;crop=117,46,603,603&amp;ava=1"></center></a></td><td>11:28 15.07 <a target="_blank" href="https://vk.com/wall-38127593_270179"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30369726)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-25591655_603505"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-95.userapi.com/s/v1/ig2/qP22jIcByzb65X9l1w8D7Jqxn5M54YY5tIPVjbBK7BdlRdIPfr6L-UGDppiEiGtMBdZK_qWbZbUYmMRagnBNimZr.jpg?size=200x200&amp;quality=95&amp;crop=234,259,765,765&amp;ava=1"></center></a></td><td>11:28 15.07 <a target="_blank" href="https://vk.com/wall-25591655_603505"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30369725)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-27671913_362062"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-24.userapi.com/s/v1/ig2/ARsWLb4bMbQMmLiQt3qzb0E1SUua1fzPA3watO1NbOcBmMezFQJ-vwur4ToIxY4sMHP8Jp5mDJ45ssVMboNahS_C.jpg?size=200x200&amp;quality=95&amp;crop=34,34,540,540&amp;ava=1"></center></a></td><td>11:28 15.07 <a target="_blank" href="https://vk.com/wall-27671913_362062"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30369724)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-101758569_111979"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-94.userapi.com/s/v1/ig2/zHKJccoXfUZqy0Y0KtGzVeh28GaAWVJlzIB5TrhSuHsunrxEUNGLReEXKgIfKxObWIXDl9Jv6MPAWdji887cJio6.jpg?size=200x200&amp;quality=96&amp;crop=0,0,549,549&amp;ava=1"></center></a></td><td>11:28 15.07 <a target="_blank" href="https://vk.com/wall-101758569_111979"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30369723)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-62481395_904895"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-89/s/v1/ig2/6qBTyHx4EAWoleh1dhQqyiwTP8cxLMFZu3dwNe-eCef9rvgK9Q1jST6TEf-GMQcE65ny8-88qo-6FiukQMH6JPhc.jpg?size=200x200&amp;quality=95&amp;crop=0,0,800,800&amp;ava=1"></center></a></td><td>11:28 15.07 <a target="_blank" href="https://vk.com/wall-62481395_904895"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30369722)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-113292812_1115832"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-86.userapi.com/s/v1/ig2/dYiC_X3jmqdoBwH3p2_QSGNRKyMbn5h9HWJtit0FHRJT_JHcrQ5OBByabRjWKoYqaicS4OIoSOnvChlOGsmgPzK1.jpg?size=200x200&amp;quality=95&amp;crop=0,0,1280,1280&amp;ava=1"></center></a></td><td>11:28 15.07 <a target="_blank" href="https://vk.com/wall-113292812_1115832"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30369714)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-161532423_39354"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-90.userapi.com/s/v1/ig1/6WSSbz2wqafle7wY8bYW1OU0bhZsLesnKl9zz1rDuWRibp24AbmlA-ftkR1nWYsst7K2pZMm.jpg?size=200x200&amp;quality=96&amp;crop=0,260,397,397&amp;ava=1"></center></a></td><td>11:28 15.07 <a target="_blank" href="https://vk.com/wall-161532423_39354"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30369711)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-179405670_17055"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-88/s/v1/ig2/QcuGP3OakaLX07ep9XkqH59qCltEDytvBnGFCYeVmjDaEldoObD_xITJEPDFGVRgmsVef0VKKrhbrWmb7A1kWrKY.jpg?size=200x200&amp;quality=95&amp;crop=563,222,553,553&amp;ava=1"></center></a></td><td>11:28 15.07 <a target="_blank" href="https://vk.com/wall-179405670_17055"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30369704)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-183942994_42806"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-28.userapi.com/s/v1/ig2/51L4eHsKAwAFqoA6JNsomwHcixr5KDcvPLoGY1ydSz9mfhuC0aEjPRBTEC-v9t8FFWM_N185bhX5OnzX6swpELXp.jpg?size=200x200&amp;quality=95&amp;crop=111,153,460,460&amp;ava=1"></center></a></td><td>11:28 15.07 <a target="_blank" href="https://vk.com/wall-183942994_42806"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30369703)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-57311523_231054"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-83.userapi.com/s/v1/if1/T2tKCwLQFURStLoXibenZ6On2lvyvjHs9YvN1UZjcpmqp5b8TlYGvqh1GBAezBU0jE6RJA.jpg?size=200x200&amp;quality=96&amp;crop=51,59,305,305&amp;ava=1"></center></a></td><td>11:28 15.07 <a target="_blank" href="https://vk.com/wall-57311523_231054"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30369702)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-15805785_782486"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-87/s/v1/ig2/kcCgWqHEFenat5UXzdxKLfeKe53iBd_aq71o3k4RyCBs3eKuEx9bifSmgEj64IyT6M3pLlwTXTwHbiNpylb92eD2.jpg?size=200x200&amp;quality=95&amp;crop=328,46,630,630&amp;ava=1"></center></a></td><td>21:45 14.07 <a target="_blank" href="https://vk.com/wall-15805785_782486"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">65 из 65</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30358685)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-15805785_782486"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-87/s/v1/ig2/kcCgWqHEFenat5UXzdxKLfeKe53iBd_aq71o3k4RyCBs3eKuEx9bifSmgEj64IyT6M3pLlwTXTwHbiNpylb92eD2.jpg?size=200x200&amp;quality=95&amp;crop=328,46,630,630&amp;ava=1"></center></a></td><td>21:45 14.07 <a target="_blank" href="https://vk.com/wall-15805785_782486"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">94 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 98.947368421053%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-3"><img src="/assets/images/icons/status-3.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30358684)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-15805785_782486"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-87/s/v1/ig2/kcCgWqHEFenat5UXzdxKLfeKe53iBd_aq71o3k4RyCBs3eKuEx9bifSmgEj64IyT6M3pLlwTXTwHbiNpylb92eD2.jpg?size=200x200&amp;quality=95&amp;crop=328,46,630,630&amp;ava=1"></center></a></td><td>21:45 14.07 <a target="_blank" href="https://vk.com/wall-15805785_782486"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">375 из 375</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30358683)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-173637727_155248"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-98.userapi.com/s/v1/ig2/UXAohz77fnet6sq3XIcrmoUwqah006PiwZHBnEFWcil3WPSRzC387X9wsV5C7fAHFTqm9RNUHTRBoTOXoFgWDK7r.jpg?size=200x200&amp;quality=96&amp;crop=33,33,934,934&amp;ava=1"></center></a></td><td>21:45 14.07 <a target="_blank" href="https://vk.com/wall-173637727_155248"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">109 из 110</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 99.090909090909%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-3"><img src="/assets/images/icons/status-3.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30358671)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-173637727_155248"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-98.userapi.com/s/v1/ig2/UXAohz77fnet6sq3XIcrmoUwqah006PiwZHBnEFWcil3WPSRzC387X9wsV5C7fAHFTqm9RNUHTRBoTOXoFgWDK7r.jpg?size=200x200&amp;quality=96&amp;crop=33,33,934,934&amp;ava=1"></center></a></td><td>21:45 14.07 <a target="_blank" href="https://vk.com/wall-173637727_155248"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">умные лайки подписчиков</small>
+					</td><td>	<div class="pr">249 из 249</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30358670)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-133330168_30404"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-97.userapi.com/s/v1/ig2/wi1mAE02vQo_KR3MFpOojZ8s7CjAIGB2d3C1hcxZxeagXaEob6z8fO_51MfyRGFSt42M54wJk4rJEZvZ9zWJRiHZ.jpg?size=200x200&amp;quality=95&amp;crop=14,14,614,614&amp;ava=1"></center></a></td><td>21:05 14.07 <a target="_blank" href="https://vk.com/wall-133330168_30404"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">87 из 87</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30357528)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-133330168_30404"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-97.userapi.com/s/v1/ig2/wi1mAE02vQo_KR3MFpOojZ8s7CjAIGB2d3C1hcxZxeagXaEob6z8fO_51MfyRGFSt42M54wJk4rJEZvZ9zWJRiHZ.jpg?size=200x200&amp;quality=95&amp;crop=14,14,614,614&amp;ava=1"></center></a></td><td>21:05 14.07 <a target="_blank" href="https://vk.com/wall-133330168_30404"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">умные лайки подписчиков</small>
+					</td><td>	<div class="pr">279 из 279</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30357527)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-69280966_25066"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-18.userapi.com/s/v1/ig2/qUNuTQaymVKksRR_qtbXE4lvUn4rnkB8coB42vBlqJqSbK2T8PE_XJW3jaixN0cYO1DGAlrCq96OZuhQdlMwUI7r.jpg?size=200x200&amp;quality=95&amp;crop=144,270,512,512&amp;ava=1"></center></a></td><td>20:55 14.07 <a target="_blank" href="https://vk.com/wall-69280966_25066"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">65 из 65</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30357173)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-69280966_25066"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-18.userapi.com/s/v1/ig2/qUNuTQaymVKksRR_qtbXE4lvUn4rnkB8coB42vBlqJqSbK2T8PE_XJW3jaixN0cYO1DGAlrCq96OZuhQdlMwUI7r.jpg?size=200x200&amp;quality=95&amp;crop=144,270,512,512&amp;ava=1"></center></a></td><td>20:55 14.07 <a target="_blank" href="https://vk.com/wall-69280966_25066"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">110 из 110</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30357172)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-69280966_25066"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-18.userapi.com/s/v1/ig2/qUNuTQaymVKksRR_qtbXE4lvUn4rnkB8coB42vBlqJqSbK2T8PE_XJW3jaixN0cYO1DGAlrCq96OZuhQdlMwUI7r.jpg?size=200x200&amp;quality=95&amp;crop=144,270,512,512&amp;ava=1"></center></a></td><td>20:55 14.07 <a target="_blank" href="https://vk.com/wall-69280966_25066"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">335 из 335</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30357171)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-139668712_373257"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-87/s/v1/ig1/2aAt9L2JSEaT6v0T68lfmj2CFxZX_i8yMKMenEZIjCM9VDHl7zWvnKpiFSwD4RBkfkNHHGIY.jpg?size=200x200&amp;quality=96&amp;crop=0,0,828,828&amp;ava=1"></center></a></td><td>20:50 14.07 <a target="_blank" href="https://vk.com/wall-139668712_373257"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">75 из 75</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30357099)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-139668712_373257"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-87/s/v1/ig1/2aAt9L2JSEaT6v0T68lfmj2CFxZX_i8yMKMenEZIjCM9VDHl7zWvnKpiFSwD4RBkfkNHHGIY.jpg?size=200x200&amp;quality=96&amp;crop=0,0,828,828&amp;ava=1"></center></a></td><td>20:50 14.07 <a target="_blank" href="https://vk.com/wall-139668712_373257"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">103 из 103</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30357098)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-139668712_373257"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-87/s/v1/ig1/2aAt9L2JSEaT6v0T68lfmj2CFxZX_i8yMKMenEZIjCM9VDHl7zWvnKpiFSwD4RBkfkNHHGIY.jpg?size=200x200&amp;quality=96&amp;crop=0,0,828,828&amp;ava=1"></center></a></td><td>20:50 14.07 <a target="_blank" href="https://vk.com/wall-139668712_373257"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">355 из 355</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30357097)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-95619595_80051"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-96/s/v1/ig2/sfXS_7jfSxkefvdDz_N2WiwwqqpEjc6xm4H5qrF2Mx8a2L2EZu1YaNks29M8ulTg6KNj--BXnoJ2F6RFXOwZwVma.jpg?size=200x200&amp;quality=95&amp;crop=108,108,864,864&amp;ava=1"></center></a></td><td>20:40 14.07 <a target="_blank" href="https://vk.com/wall-95619595_80051"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">62 из 62</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356966)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-95619595_80051"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-96/s/v1/ig2/sfXS_7jfSxkefvdDz_N2WiwwqqpEjc6xm4H5qrF2Mx8a2L2EZu1YaNks29M8ulTg6KNj--BXnoJ2F6RFXOwZwVma.jpg?size=200x200&amp;quality=95&amp;crop=108,108,864,864&amp;ava=1"></center></a></td><td>20:40 14.07 <a target="_blank" href="https://vk.com/wall-95619595_80051"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">109 из 109</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356965)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-95619595_80051"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-96/s/v1/ig2/sfXS_7jfSxkefvdDz_N2WiwwqqpEjc6xm4H5qrF2Mx8a2L2EZu1YaNks29M8ulTg6KNj--BXnoJ2F6RFXOwZwVma.jpg?size=200x200&amp;quality=95&amp;crop=108,108,864,864&amp;ava=1"></center></a></td><td>20:40 14.07 <a target="_blank" href="https://vk.com/wall-95619595_80051"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">342 из 342</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356964)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-63855504_669970"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-17.userapi.com/s/v1/if1/MHTfRawn9UsLDO_qqMJ5TaCL_vAU2BnZFIRdonVRoT291TwmHTaBzA2oDDoxe_xjVLU_tlGl.jpg?size=200x200&amp;quality=96&amp;crop=6,0,200,200&amp;ava=1"></center></a></td><td>20:25 14.07 <a target="_blank" href="https://vk.com/wall-63855504_669970"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">88 из 88</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356462)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-63855504_669970"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-17.userapi.com/s/v1/if1/MHTfRawn9UsLDO_qqMJ5TaCL_vAU2BnZFIRdonVRoT291TwmHTaBzA2oDDoxe_xjVLU_tlGl.jpg?size=200x200&amp;quality=96&amp;crop=6,0,200,200&amp;ava=1"></center></a></td><td>20:25 14.07 <a target="_blank" href="https://vk.com/wall-63855504_669970"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">89 из 90</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 98.888888888889%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-3"><img src="/assets/images/icons/status-3.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356461)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-63855504_669970"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-17.userapi.com/s/v1/if1/MHTfRawn9UsLDO_qqMJ5TaCL_vAU2BnZFIRdonVRoT291TwmHTaBzA2oDDoxe_xjVLU_tlGl.jpg?size=200x200&amp;quality=96&amp;crop=6,0,200,200&amp;ava=1"></center></a></td><td>20:25 14.07 <a target="_blank" href="https://vk.com/wall-63855504_669970"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">348 из 348</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356460)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-56800986_284040"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-95.userapi.com/s/v1/if1/bINQfRZxuaX0icfUq96sm2M9LxLCdnBaUD4ccp_ttlz6BV1r5or63Tq7TtKrh4Vjtq5091Ve.jpg?size=200x200&amp;quality=96&amp;crop=0,0,477,477&amp;ava=1"></center></a></td><td>20:15 14.07 <a target="_blank" href="https://vk.com/wall-56800986_284040"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">64 из 64</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356218)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-56800986_284040"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-95.userapi.com/s/v1/if1/bINQfRZxuaX0icfUq96sm2M9LxLCdnBaUD4ccp_ttlz6BV1r5or63Tq7TtKrh4Vjtq5091Ve.jpg?size=200x200&amp;quality=96&amp;crop=0,0,477,477&amp;ava=1"></center></a></td><td>20:15 14.07 <a target="_blank" href="https://vk.com/wall-56800986_284040"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">87 из 87</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356217)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-56800986_284040"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-95.userapi.com/s/v1/if1/bINQfRZxuaX0icfUq96sm2M9LxLCdnBaUD4ccp_ttlz6BV1r5or63Tq7TtKrh4Vjtq5091Ve.jpg?size=200x200&amp;quality=96&amp;crop=0,0,477,477&amp;ava=1"></center></a></td><td>20:15 14.07 <a target="_blank" href="https://vk.com/wall-56800986_284040"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">324 из 324</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356216)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-45960892_606352"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-28.userapi.com/s/v1/if1/B2DtVoW0rWRL8gTngnYhtvNC_CFXa9LzFk_4dyDG-LPE9ZWtmkrLiZuHPsoRpRZ9zZxemycj.jpg?size=200x200&amp;quality=96&amp;crop=230,619,659,659&amp;ava=1"></center></a></td><td>20:10 14.07 <a target="_blank" href="https://vk.com/wall-45960892_606352"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">55 из 55</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356096)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-45960892_606352"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-28.userapi.com/s/v1/if1/B2DtVoW0rWRL8gTngnYhtvNC_CFXa9LzFk_4dyDG-LPE9ZWtmkrLiZuHPsoRpRZ9zZxemycj.jpg?size=200x200&amp;quality=96&amp;crop=230,619,659,659&amp;ava=1"></center></a></td><td>20:10 14.07 <a target="_blank" href="https://vk.com/wall-45960892_606352"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">0 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 0%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-3"><img src="/assets/images/icons/status-3.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356095)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-45960892_606352"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-28.userapi.com/s/v1/if1/B2DtVoW0rWRL8gTngnYhtvNC_CFXa9LzFk_4dyDG-LPE9ZWtmkrLiZuHPsoRpRZ9zZxemycj.jpg?size=200x200&amp;quality=96&amp;crop=230,619,659,659&amp;ava=1"></center></a></td><td>20:10 14.07 <a target="_blank" href="https://vk.com/wall-45960892_606352"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">375 из 375</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356094)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-138649060_2194804"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-57.userapi.com/s/v1/ig2/dYwD8e_mW5WRxi1Cl2YgxR8cJ91L-VzZ1CPuGPPIW-7PQN-m8bsg75G7JmFmZwYIq7ujsCiB2VTNqIBy30J3brKl.jpg?size=200x200&amp;quality=96&amp;crop=59,37,989,989&amp;ava=1"></center></a></td><td>20:10 14.07 <a target="_blank" href="https://vk.com/wall-138649060_2194804"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">76 из 76</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356090)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-138649060_2194804"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-57.userapi.com/s/v1/ig2/dYwD8e_mW5WRxi1Cl2YgxR8cJ91L-VzZ1CPuGPPIW-7PQN-m8bsg75G7JmFmZwYIq7ujsCiB2VTNqIBy30J3brKl.jpg?size=200x200&amp;quality=96&amp;crop=59,37,989,989&amp;ava=1"></center></a></td><td>20:10 14.07 <a target="_blank" href="https://vk.com/wall-138649060_2194804"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356089)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-138649060_2194804"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-57.userapi.com/s/v1/ig2/dYwD8e_mW5WRxi1Cl2YgxR8cJ91L-VzZ1CPuGPPIW-7PQN-m8bsg75G7JmFmZwYIq7ujsCiB2VTNqIBy30J3brKl.jpg?size=200x200&amp;quality=96&amp;crop=59,37,989,989&amp;ava=1"></center></a></td><td>20:10 14.07 <a target="_blank" href="https://vk.com/wall-138649060_2194804"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">426 из 426</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30356088)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-122606077_456956"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-47/s/v1/ig2/WYeej0TP6ExZ_k_vceSob3hEyoWbr44ShVVqo2mMmcBcGxMKfMg8ZYb3DRmcBJtGqIJUJrObhXp1_YKNg_vLoPbf.jpg?size=200x200&amp;quality=96&amp;crop=21,35,843,843&amp;ava=1"></center></a></td><td>20:05 14.07 <a target="_blank" href="https://vk.com/wall-122606077_456956"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">65 из 65</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30355745)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-122606077_456956"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-47/s/v1/ig2/WYeej0TP6ExZ_k_vceSob3hEyoWbr44ShVVqo2mMmcBcGxMKfMg8ZYb3DRmcBJtGqIJUJrObhXp1_YKNg_vLoPbf.jpg?size=200x200&amp;quality=96&amp;crop=21,35,843,843&amp;ava=1"></center></a></td><td>20:05 14.07 <a target="_blank" href="https://vk.com/wall-122606077_456956"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">101 из 101</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30355744)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-122606077_456956"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-47/s/v1/ig2/WYeej0TP6ExZ_k_vceSob3hEyoWbr44ShVVqo2mMmcBcGxMKfMg8ZYb3DRmcBJtGqIJUJrObhXp1_YKNg_vLoPbf.jpg?size=200x200&amp;quality=96&amp;crop=21,35,843,843&amp;ava=1"></center></a></td><td>20:05 14.07 <a target="_blank" href="https://vk.com/wall-122606077_456956"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">375 из 375</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30355743)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-100714248_352924"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-99.userapi.com/s/v1/if1/g9_pOJdu4sTKVRDJv6mDS1oX0GGZbkbUcuSZ_OwElH1d6QTLL6BRIpfUi3oyao-rVbjy30KZ.jpg?size=200x200&amp;quality=96&amp;crop=0,111,427,427&amp;ava=1"></center></a></td><td>19:55 14.07 <a target="_blank" href="https://vk.com/wall-100714248_352924"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты</small>
+					</td><td>	<div class="pr">60 из 60</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30355266)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-100714248_352924"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-99.userapi.com/s/v1/if1/g9_pOJdu4sTKVRDJv6mDS1oX0GGZbkbUcuSZ_OwElH1d6QTLL6BRIpfUi3oyao-rVbjy30KZ.jpg?size=200x200&amp;quality=96&amp;crop=0,111,427,427&amp;ava=1"></center></a></td><td>19:55 14.07 <a target="_blank" href="https://vk.com/wall-100714248_352924"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">92 из 92</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30355265)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-100714248_352924"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-99.userapi.com/s/v1/if1/g9_pOJdu4sTKVRDJv6mDS1oX0GGZbkbUcuSZ_OwElH1d6QTLL6BRIpfUi3oyao-rVbjy30KZ.jpg?size=200x200&amp;quality=96&amp;crop=0,111,427,427&amp;ava=1"></center></a></td><td>19:55 14.07 <a target="_blank" href="https://vk.com/wall-100714248_352924"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">420 из 420</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30355264)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-123465770_179722"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-84/s/v1/ig2/X5OyBVNbbLiXqYDrr-Lc-NEjIwyAySZ8Q_O6LPuE3Afe6v9T8v4Zew_DJ5wqlOITiEI-1nbTweqLOIIcuaVNFwyi.jpg?size=200x200&amp;quality=96&amp;crop=0,19,781,781&amp;ava=1"></center></a></td><td>19:45 14.07 <a target="_blank" href="https://vk.com/wall-123465770_179722"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">59 из 59</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30355106)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-123465770_179722"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-84/s/v1/ig2/X5OyBVNbbLiXqYDrr-Lc-NEjIwyAySZ8Q_O6LPuE3Afe6v9T8v4Zew_DJ5wqlOITiEI-1nbTweqLOIIcuaVNFwyi.jpg?size=200x200&amp;quality=96&amp;crop=0,19,781,781&amp;ava=1"></center></a></td><td>19:45 14.07 <a target="_blank" href="https://vk.com/wall-123465770_179722"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">110 из 110</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30355105)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-123465770_179722"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-84/s/v1/ig2/X5OyBVNbbLiXqYDrr-Lc-NEjIwyAySZ8Q_O6LPuE3Afe6v9T8v4Zew_DJ5wqlOITiEI-1nbTweqLOIIcuaVNFwyi.jpg?size=200x200&amp;quality=96&amp;crop=0,19,781,781&amp;ava=1"></center></a></td><td>19:45 14.07 <a target="_blank" href="https://vk.com/wall-123465770_179722"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">269 из 269</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30355104)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-74868793_216900"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-29.userapi.com/s/v1/if1/5kf_y5ckLKTAE5650NoMfhUtpghDA3Js6FkuB0iNLJ3gS1S7RAcyCD_6X4ubaRpc43D6u-lR.jpg?size=200x200&amp;quality=96&amp;crop=178,510,371,371&amp;ava=1"></center></a></td><td>19:15 14.07 <a target="_blank" href="https://vk.com/wall-74868793_216900"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">55 из 55</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30354330)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-74868793_216900"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-29.userapi.com/s/v1/if1/5kf_y5ckLKTAE5650NoMfhUtpghDA3Js6FkuB0iNLJ3gS1S7RAcyCD_6X4ubaRpc43D6u-lR.jpg?size=200x200&amp;quality=96&amp;crop=178,510,371,371&amp;ava=1"></center></a></td><td>19:15 14.07 <a target="_blank" href="https://vk.com/wall-74868793_216900"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">109 из 109</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30354329)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-74868793_216900"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-29.userapi.com/s/v1/if1/5kf_y5ckLKTAE5650NoMfhUtpghDA3Js6FkuB0iNLJ3gS1S7RAcyCD_6X4ubaRpc43D6u-lR.jpg?size=200x200&amp;quality=96&amp;crop=178,510,371,371&amp;ava=1"></center></a></td><td>19:15 14.07 <a target="_blank" href="https://vk.com/wall-74868793_216900"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">345 из 345</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30354328)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-154610877_458808"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-57/s/v1/if1/Vl44-N7iH-N-arF9VsDOQO1slq6V88pIFOIMO1EPUQdqc9gCyvJqRTuyPEcvVMG4Or-MXxJp.jpg?size=200x200&amp;quality=96&amp;crop=0,69,650,650&amp;ava=1"></center></a></td><td>19:15 14.07 <a target="_blank" href="https://vk.com/wall-154610877_458808"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">65 из 65</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30354248)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-154610877_458808"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-57/s/v1/if1/Vl44-N7iH-N-arF9VsDOQO1slq6V88pIFOIMO1EPUQdqc9gCyvJqRTuyPEcvVMG4Or-MXxJp.jpg?size=200x200&amp;quality=96&amp;crop=0,69,650,650&amp;ava=1"></center></a></td><td>19:15 14.07 <a target="_blank" href="https://vk.com/wall-154610877_458808"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">97 из 97</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30354247)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-154610877_458808"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-57/s/v1/if1/Vl44-N7iH-N-arF9VsDOQO1slq6V88pIFOIMO1EPUQdqc9gCyvJqRTuyPEcvVMG4Or-MXxJp.jpg?size=200x200&amp;quality=96&amp;crop=0,69,650,650&amp;ava=1"></center></a></td><td>19:15 14.07 <a target="_blank" href="https://vk.com/wall-154610877_458808"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">415 из 415</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30354246)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-209615715_17281"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-93.userapi.com/s/v1/ig2/P7LmcVgMY8OH-5IOVyb-oR0ssMtnS_Jqy_GcE_LCpp3tD0JkG0aAfXRYDYZLBXqXbhq5Ig_8UzJk1ezSdxT0Bx-t.jpg?size=200x200&amp;quality=95&amp;crop=471,36,960,960&amp;ava=1"></center></a></td><td>19:10 14.07 <a target="_blank" href="https://vk.com/wall-209615715_17281"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">61 из 61</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30354103)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-209615715_17281"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-93.userapi.com/s/v1/ig2/P7LmcVgMY8OH-5IOVyb-oR0ssMtnS_Jqy_GcE_LCpp3tD0JkG0aAfXRYDYZLBXqXbhq5Ig_8UzJk1ezSdxT0Bx-t.jpg?size=200x200&amp;quality=95&amp;crop=471,36,960,960&amp;ava=1"></center></a></td><td>19:10 14.07 <a target="_blank" href="https://vk.com/wall-209615715_17281"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">92 из 92</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30354102)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-209615715_17281"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-93.userapi.com/s/v1/ig2/P7LmcVgMY8OH-5IOVyb-oR0ssMtnS_Jqy_GcE_LCpp3tD0JkG0aAfXRYDYZLBXqXbhq5Ig_8UzJk1ezSdxT0Bx-t.jpg?size=200x200&amp;quality=95&amp;crop=471,36,960,960&amp;ava=1"></center></a></td><td>19:10 14.07 <a target="_blank" href="https://vk.com/wall-209615715_17281"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">331 из 331</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30354101)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-183580082_85277"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-55.userapi.com/s/v1/if2/xXZO_FRIaaF4-WXbAspZcOu3Qkwo_79lyoPnXsgYurK4vBqPUu5L1fmGNONWiD0s-7MXvFhlIzFug8RVlCkvGNwf.jpg?size=200x200&amp;quality=96&amp;crop=0,12,749,749&amp;ava=1"></center></a></td><td>18:20 14.07 <a target="_blank" href="https://vk.com/wall-183580082_85277"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">64 из 64</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30352492)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-183580082_85277"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-55.userapi.com/s/v1/if2/xXZO_FRIaaF4-WXbAspZcOu3Qkwo_79lyoPnXsgYurK4vBqPUu5L1fmGNONWiD0s-7MXvFhlIzFug8RVlCkvGNwf.jpg?size=200x200&amp;quality=96&amp;crop=0,12,749,749&amp;ava=1"></center></a></td><td>18:20 14.07 <a target="_blank" href="https://vk.com/wall-183580082_85277"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">94 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 98.947368421053%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-3"><img src="/assets/images/icons/status-3.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30352491)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-183580082_85277"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-55.userapi.com/s/v1/if2/xXZO_FRIaaF4-WXbAspZcOu3Qkwo_79lyoPnXsgYurK4vBqPUu5L1fmGNONWiD0s-7MXvFhlIzFug8RVlCkvGNwf.jpg?size=200x200&amp;quality=96&amp;crop=0,12,749,749&amp;ava=1"></center></a></td><td>18:20 14.07 <a target="_blank" href="https://vk.com/wall-183580082_85277"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">314 из 314</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30352490)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-31916136_457070"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-26/s/v1/ig2/eQQ2EdNs5JuOU6zHl6jdqulRipG7GUU29DbdNe83kHqAsKbhzqPI8rbWgz9zmRd83Ob0h3690BM14_hCDTOcIx0Z.jpg?size=200x200&amp;quality=96&amp;crop=119,252,748,748&amp;ava=1"></center></a></td><td>18:20 14.07 <a target="_blank" href="https://vk.com/wall-31916136_457070"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">76 из 76</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30352467)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-31916136_457070"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-26/s/v1/ig2/eQQ2EdNs5JuOU6zHl6jdqulRipG7GUU29DbdNe83kHqAsKbhzqPI8rbWgz9zmRd83Ob0h3690BM14_hCDTOcIx0Z.jpg?size=200x200&amp;quality=96&amp;crop=119,252,748,748&amp;ava=1"></center></a></td><td>18:20 14.07 <a target="_blank" href="https://vk.com/wall-31916136_457070"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">89 из 90</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 98.888888888889%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-3"><img src="/assets/images/icons/status-3.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30352466)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-31916136_457070"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-26/s/v1/ig2/eQQ2EdNs5JuOU6zHl6jdqulRipG7GUU29DbdNe83kHqAsKbhzqPI8rbWgz9zmRd83Ob0h3690BM14_hCDTOcIx0Z.jpg?size=200x200&amp;quality=96&amp;crop=119,252,748,748&amp;ava=1"></center></a></td><td>18:20 14.07 <a target="_blank" href="https://vk.com/wall-31916136_457070"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">276 из 276</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30352465)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-192865635_584255"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-28.userapi.com/s/v1/ig2/tShygon9DudSSKGrQbq8gekJqFjCpN3u_wfV25qPY269x-JV9VhE-3uuaS0bVy3l46iCsbU-Dgkew9pTNFhSSRHJ.jpg?size=200x200&amp;quality=96&amp;crop=0,0,640,640&amp;ava=1"></center></a></td><td>17:55 14.07 <a target="_blank" href="https://vk.com/wall-192865635_584255"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">57 из 57</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30351269)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-192865635_584255"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-28.userapi.com/s/v1/ig2/tShygon9DudSSKGrQbq8gekJqFjCpN3u_wfV25qPY269x-JV9VhE-3uuaS0bVy3l46iCsbU-Dgkew9pTNFhSSRHJ.jpg?size=200x200&amp;quality=96&amp;crop=0,0,640,640&amp;ava=1"></center></a></td><td>17:55 14.07 <a target="_blank" href="https://vk.com/wall-192865635_584255"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">106 из 110</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 96.363636363636%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-3"><img src="/assets/images/icons/status-3.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30351268)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-192865635_584255"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-28.userapi.com/s/v1/ig2/tShygon9DudSSKGrQbq8gekJqFjCpN3u_wfV25qPY269x-JV9VhE-3uuaS0bVy3l46iCsbU-Dgkew9pTNFhSSRHJ.jpg?size=200x200&amp;quality=96&amp;crop=0,0,640,640&amp;ava=1"></center></a></td><td>17:55 14.07 <a target="_blank" href="https://vk.com/wall-192865635_584255"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">387 из 387</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30351267)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-77108492_408709"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-99/s/v1/if2/jzv7YLFAJx9shnCRcxZYJw52IHhuyhZGJvSicC3JTNpw3VsucPqp5wNGyg2zTisZXcE5jSC8qI13TpT2mPzFpAqd.jpg?size=200x200&amp;quality=96&amp;crop=256,204,548,548&amp;ava=1"></center></a></td><td>17:50 14.07 <a target="_blank" href="https://vk.com/wall-77108492_408709"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">67 из 67</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30351117)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-77108492_408709"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-99/s/v1/if2/jzv7YLFAJx9shnCRcxZYJw52IHhuyhZGJvSicC3JTNpw3VsucPqp5wNGyg2zTisZXcE5jSC8qI13TpT2mPzFpAqd.jpg?size=200x200&amp;quality=96&amp;crop=256,204,548,548&amp;ava=1"></center></a></td><td>17:50 14.07 <a target="_blank" href="https://vk.com/wall-77108492_408709"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30351116)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-77108492_408709"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-99/s/v1/if2/jzv7YLFAJx9shnCRcxZYJw52IHhuyhZGJvSicC3JTNpw3VsucPqp5wNGyg2zTisZXcE5jSC8qI13TpT2mPzFpAqd.jpg?size=200x200&amp;quality=96&amp;crop=256,204,548,548&amp;ava=1"></center></a></td><td>17:50 14.07 <a target="_blank" href="https://vk.com/wall-77108492_408709"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">357 из 357</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30351115)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-159802906_477690"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-26/s/v1/if1/jTHknshQF7A7xxiEcGQo-ZxW5AwAJcDp1NpwjMQL4eH4jToLvjpPNzln2IYxprXiTlu7RTx2.jpg?size=200x200&amp;quality=96&amp;crop=52,0,415,415&amp;ava=1"></center></a></td><td>17:50 14.07 <a target="_blank" href="https://vk.com/wall-159802906_477690"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">65 из 65</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30351089)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-159802906_477690"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-26/s/v1/if1/jTHknshQF7A7xxiEcGQo-ZxW5AwAJcDp1NpwjMQL4eH4jToLvjpPNzln2IYxprXiTlu7RTx2.jpg?size=200x200&amp;quality=96&amp;crop=52,0,415,415&amp;ava=1"></center></a></td><td>17:50 14.07 <a target="_blank" href="https://vk.com/wall-159802906_477690"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">109 из 110</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 99.090909090909%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-3"><img src="/assets/images/icons/status-3.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30351088)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-159802906_477690"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-26/s/v1/if1/jTHknshQF7A7xxiEcGQo-ZxW5AwAJcDp1NpwjMQL4eH4jToLvjpPNzln2IYxprXiTlu7RTx2.jpg?size=200x200&amp;quality=96&amp;crop=52,0,415,415&amp;ava=1"></center></a></td><td>17:50 14.07 <a target="_blank" href="https://vk.com/wall-159802906_477690"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">345 из 345</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30351087)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-194532245_208976"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-54.userapi.com/s/v1/ig1/-7JRKqtxwq2qv4lZEkPJTUN4nBkUqiChBe_LrFyAYPj05adoi26ndkw-LtjLcilmOwSqG5zP.jpg?size=200x200&amp;quality=96&amp;crop=149,149,715,715&amp;ava=1"></center></a></td><td>17:45 14.07 <a target="_blank" href="https://vk.com/wall-194532245_208976"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">51 из 51</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350988)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-194532245_208976"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-54.userapi.com/s/v1/ig1/-7JRKqtxwq2qv4lZEkPJTUN4nBkUqiChBe_LrFyAYPj05adoi26ndkw-LtjLcilmOwSqG5zP.jpg?size=200x200&amp;quality=96&amp;crop=149,149,715,715&amp;ava=1"></center></a></td><td>17:45 14.07 <a target="_blank" href="https://vk.com/wall-194532245_208976"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">110 из 110</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350987)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-194532245_208976"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-54.userapi.com/s/v1/ig1/-7JRKqtxwq2qv4lZEkPJTUN4nBkUqiChBe_LrFyAYPj05adoi26ndkw-LtjLcilmOwSqG5zP.jpg?size=200x200&amp;quality=96&amp;crop=149,149,715,715&amp;ava=1"></center></a></td><td>17:45 14.07 <a target="_blank" href="https://vk.com/wall-194532245_208976"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">367 из 367</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350986)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-102281252_2090"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-16/s/v1/ig2/qSQhtP_Au5v3Q3VfZJ5jrAwtgsCxhGTO8pxrtbd7m_BrKaAheRLkwj2MFh8HONgLibDmFzdmFZOR6fSosI2Mk9Di.jpg?size=200x200&amp;quality=95&amp;crop=376,2,538,538&amp;ava=1"></center></a></td><td>17:35 14.07 <a target="_blank" href="https://vk.com/wall-102281252_2090"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">53 из 53</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350667)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-102281252_2090"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-16/s/v1/ig2/qSQhtP_Au5v3Q3VfZJ5jrAwtgsCxhGTO8pxrtbd7m_BrKaAheRLkwj2MFh8HONgLibDmFzdmFZOR6fSosI2Mk9Di.jpg?size=200x200&amp;quality=95&amp;crop=376,2,538,538&amp;ava=1"></center></a></td><td>17:35 14.07 <a target="_blank" href="https://vk.com/wall-102281252_2090"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">102 из 102</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350666)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-102281252_2090"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-16/s/v1/ig2/qSQhtP_Au5v3Q3VfZJ5jrAwtgsCxhGTO8pxrtbd7m_BrKaAheRLkwj2MFh8HONgLibDmFzdmFZOR6fSosI2Mk9Di.jpg?size=200x200&amp;quality=95&amp;crop=376,2,538,538&amp;ava=1"></center></a></td><td>17:35 14.07 <a target="_blank" href="https://vk.com/wall-102281252_2090"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">333 из 333</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350665)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-51189706_577237"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-92.userapi.com/s/v1/if1/nhE_n0m5ygel_b6CjuPMulEzMbkgIVEfU8um6VB8CXBLAQZp_59zDgaBSwoj_ahuRui_fgz5.jpg?size=200x200&amp;quality=96&amp;crop=273,303,432,432&amp;ava=1"></center></a></td><td>17:25 14.07 <a target="_blank" href="https://vk.com/wall-51189706_577237"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">54 из 54</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350276)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-51189706_577237"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-92.userapi.com/s/v1/if1/nhE_n0m5ygel_b6CjuPMulEzMbkgIVEfU8um6VB8CXBLAQZp_59zDgaBSwoj_ahuRui_fgz5.jpg?size=200x200&amp;quality=96&amp;crop=273,303,432,432&amp;ava=1"></center></a></td><td>17:25 14.07 <a target="_blank" href="https://vk.com/wall-51189706_577237"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350275)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-51189706_577237"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-92.userapi.com/s/v1/if1/nhE_n0m5ygel_b6CjuPMulEzMbkgIVEfU8um6VB8CXBLAQZp_59zDgaBSwoj_ahuRui_fgz5.jpg?size=200x200&amp;quality=96&amp;crop=273,303,432,432&amp;ava=1"></center></a></td><td>17:25 14.07 <a target="_blank" href="https://vk.com/wall-51189706_577237"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">384 из 384</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350274)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-198247342_17268"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-92/s/v1/ig2/Uumo84wYqK6VqZ3Pi95-r3yqyzyCjh8Gr_KJlUxIH2P4dAcOT57jhtq0RGka9KCIUaZlaBZntGKnnINEh364Jejs.jpg?size=200x200&amp;quality=95&amp;crop=0,0,750,750&amp;ava=1"></center></a></td><td>17:25 14.07 <a target="_blank" href="https://vk.com/wall-198247342_17268"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">65 из 65</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350269)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-198247342_17268"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-92/s/v1/ig2/Uumo84wYqK6VqZ3Pi95-r3yqyzyCjh8Gr_KJlUxIH2P4dAcOT57jhtq0RGka9KCIUaZlaBZntGKnnINEh364Jejs.jpg?size=200x200&amp;quality=95&amp;crop=0,0,750,750&amp;ava=1"></center></a></td><td>17:25 14.07 <a target="_blank" href="https://vk.com/wall-198247342_17268"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">108 из 109</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 99.082568807339%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-3"><img src="/assets/images/icons/status-3.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350268)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-198247342_17268"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-92/s/v1/ig2/Uumo84wYqK6VqZ3Pi95-r3yqyzyCjh8Gr_KJlUxIH2P4dAcOT57jhtq0RGka9KCIUaZlaBZntGKnnINEh364Jejs.jpg?size=200x200&amp;quality=95&amp;crop=0,0,750,750&amp;ava=1"></center></a></td><td>17:25 14.07 <a target="_blank" href="https://vk.com/wall-198247342_17268"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">325 из 325</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350267)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-68422589_237476"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-84.userapi.com/s/v1/if1/da8M9BHT2dhjk_TE9xzRW40N0CISgJkImAq9cjjjGf7-puq1SIA6HwO_76JAW_rqLsdj4kxl.jpg?size=200x200&amp;quality=96&amp;crop=31,38,575,575&amp;ava=1"></center></a></td><td>17:20 14.07 <a target="_blank" href="https://vk.com/wall-68422589_237476"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">53 из 53</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350190)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-68422589_237476"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-84.userapi.com/s/v1/if1/da8M9BHT2dhjk_TE9xzRW40N0CISgJkImAq9cjjjGf7-puq1SIA6HwO_76JAW_rqLsdj4kxl.jpg?size=200x200&amp;quality=96&amp;crop=31,38,575,575&amp;ava=1"></center></a></td><td>17:20 14.07 <a target="_blank" href="https://vk.com/wall-68422589_237476"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">94 из 94</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350189)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-68422589_237476"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-84.userapi.com/s/v1/if1/da8M9BHT2dhjk_TE9xzRW40N0CISgJkImAq9cjjjGf7-puq1SIA6HwO_76JAW_rqLsdj4kxl.jpg?size=200x200&amp;quality=96&amp;crop=31,38,575,575&amp;ava=1"></center></a></td><td>17:20 14.07 <a target="_blank" href="https://vk.com/wall-68422589_237476"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">293 из 293</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30350188)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-61972_1525497"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-29.userapi.com/s/v1/ig2/a-ft_gHlWoHRcw0IzI7VuLA736xkvNQ2IXVK4_bysnr-rffoMOm4pG9Io2WSsJfoPanhl3NBdt3_O8UUmYEyj7pd.jpg?size=200x200&amp;quality=95&amp;crop=0,693,1467,1467&amp;ava=1"></center></a></td><td>17:05 14.07 <a target="_blank" href="https://vk.com/wall-61972_1525497"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">64 из 64</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30349792)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-61972_1525497"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-29.userapi.com/s/v1/ig2/a-ft_gHlWoHRcw0IzI7VuLA736xkvNQ2IXVK4_bysnr-rffoMOm4pG9Io2WSsJfoPanhl3NBdt3_O8UUmYEyj7pd.jpg?size=200x200&amp;quality=95&amp;crop=0,693,1467,1467&amp;ava=1"></center></a></td><td>17:05 14.07 <a target="_blank" href="https://vk.com/wall-61972_1525497"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30349791)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-61972_1525497"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-29.userapi.com/s/v1/ig2/a-ft_gHlWoHRcw0IzI7VuLA736xkvNQ2IXVK4_bysnr-rffoMOm4pG9Io2WSsJfoPanhl3NBdt3_O8UUmYEyj7pd.jpg?size=200x200&amp;quality=95&amp;crop=0,693,1467,1467&amp;ava=1"></center></a></td><td>17:05 14.07 <a target="_blank" href="https://vk.com/wall-61972_1525497"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">454 из 454</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30349790)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-181175361_7891"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-54.userapi.com/s/v1/ig2/gg8to1R98diEA_CeMazUb4JdRBR-8Imq9-HbGAnnl5ibFfThjIk0tP9aKPWC8RvKLNvNRmx5zUCEnRkV3UsGqDbs.jpg?size=200x200&amp;quality=95&amp;crop=459,105,336,336&amp;ava=1"></center></a></td><td>16:50 14.07 <a target="_blank" href="https://vk.com/wall-181175361_7891"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">62 из 62</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30349301)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-181175361_7891"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-54.userapi.com/s/v1/ig2/gg8to1R98diEA_CeMazUb4JdRBR-8Imq9-HbGAnnl5ibFfThjIk0tP9aKPWC8RvKLNvNRmx5zUCEnRkV3UsGqDbs.jpg?size=200x200&amp;quality=95&amp;crop=459,105,336,336&amp;ava=1"></center></a></td><td>16:50 14.07 <a target="_blank" href="https://vk.com/wall-181175361_7891"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">95 из 95</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30349300)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-181175361_7891"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-54.userapi.com/s/v1/ig2/gg8to1R98diEA_CeMazUb4JdRBR-8Imq9-HbGAnnl5ibFfThjIk0tP9aKPWC8RvKLNvNRmx5zUCEnRkV3UsGqDbs.jpg?size=200x200&amp;quality=95&amp;crop=459,105,336,336&amp;ava=1"></center></a></td><td>16:50 14.07 <a target="_blank" href="https://vk.com/wall-181175361_7891"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">352 из 352</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30349299)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-30770434_2268092"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-95.userapi.com/s/v1/if1/_vjDr7SrdrR5SgclSKweTBWufYaFO1_1GT507ql4QammHgHhy43JZuUaJ1yCpL55bLCO5RRw.jpg?size=200x200&amp;quality=96&amp;crop=50,50,401,401&amp;ava=1"></center></a></td><td>16:45 14.07 <a target="_blank" href="https://vk.com/wall-30770434_2268092"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">53 из 53</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30349180)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-30770434_2268092"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-95.userapi.com/s/v1/if1/_vjDr7SrdrR5SgclSKweTBWufYaFO1_1GT507ql4QammHgHhy43JZuUaJ1yCpL55bLCO5RRw.jpg?size=200x200&amp;quality=96&amp;crop=50,50,401,401&amp;ava=1"></center></a></td><td>16:45 14.07 <a target="_blank" href="https://vk.com/wall-30770434_2268092"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">92 из 92</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30349179)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-30770434_2268092"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1-95.userapi.com/s/v1/if1/_vjDr7SrdrR5SgclSKweTBWufYaFO1_1GT507ql4QammHgHhy43JZuUaJ1yCpL55bLCO5RRw.jpg?size=200x200&amp;quality=96&amp;crop=50,50,401,401&amp;ava=1"></center></a></td><td>16:45 14.07 <a target="_blank" href="https://vk.com/wall-30770434_2268092"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">373 из 373</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30349178)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-73595075_213240"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-25/s/v1/ig2/iBfEtU71c0ENqbAofeeZYDDh-XYFFH5kGjFX-R29dO8uJDWf4ekpomnshFcGT7RzFPa4wLJu3ICPoVQLJQ3YCaxB.jpg?size=200x200&amp;quality=95&amp;crop=58,92,624,624&amp;ava=1"></center></a></td><td>16:15 14.07 <a target="_blank" href="https://vk.com/wall-73595075_213240"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">54 из 54</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30348360)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-73595075_213240"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-25/s/v1/ig2/iBfEtU71c0ENqbAofeeZYDDh-XYFFH5kGjFX-R29dO8uJDWf4ekpomnshFcGT7RzFPa4wLJu3ICPoVQLJQ3YCaxB.jpg?size=200x200&amp;quality=95&amp;crop=58,92,624,624&amp;ava=1"></center></a></td><td>16:15 14.07 <a target="_blank" href="https://vk.com/wall-73595075_213240"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">сценарий</small>
+					</td><td>	<div class="pr">101 из 101</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30348359)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="odd"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-73595075_213240"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-25/s/v1/ig2/iBfEtU71c0ENqbAofeeZYDDh-XYFFH5kGjFX-R29dO8uJDWf4ekpomnshFcGT7RzFPa4wLJu3ICPoVQLJQ3YCaxB.jpg?size=200x200&amp;quality=95&amp;crop=58,92,624,624&amp;ava=1"></center></a></td><td>16:15 14.07 <a target="_blank" href="https://vk.com/wall-73595075_213240"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">лайки подписчиков</small>
+					</td><td>	<div class="pr">384 из 384</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30348358)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr><tr role="row" class="even"><td tabindex="0"><a target="_blank" href="https://vk.com/wall-28976701_166830"><center><img style="width: 27px; border-radius: 50px;" src="https://sun1.userapi.com/sun1-18/s/v1/ig2/kAx6I9Vg4tiqCvyOSTgcG-8058VHl9Vch7QtJuBHbiHX5p1vbYFWTrQOZcvCrk_iM3Ves5bv_bU8E2ABasTHtK0W.jpg?size=200x200&amp;quality=95&amp;crop=582,52,424,424&amp;ava=1"></center></a></td><td>15:35 14.07 <a target="_blank" href="https://vk.com/wall-28976701_166830"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+					<br>
+					<small class="taskType">репосты в лс</small>
+					</td><td>	<div class="pr">75 из 75</div>
+							  <div class="progress">
+								 <div class="progress-bar" role="progressbar progress-bar-striped progress-bar-animated" style="width: 100%;background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); background-size: 1rem 1rem;"></div>
+							  </div>
+					</td><td><div class="status-2"><img src="/assets/images/icons/status-2.svg" width="20"></div></td><td class=" btns-right"><a onclick="orderApp.__vue__.getInfo(30346699)" class="z1-btn z1-btn-secondary btn-sm btn-sm btn-sm">Подробнее</a></td></tr></tbody></table><div id="table_processing" class="dataTables_processing card" style="display: none;">Подождите...</div></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="table_info" role="status" aria-live="polite">Записи с 1 до 100 из 48,666 записей</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="table_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="table_previous"><a href="#" aria-controls="table" data-dt-idx="0" tabindex="0" class="page-link"><i class="fa fa-chevron-left" aria-hidden="true"></i></a></li><li class="paginate_button page-item active"><a href="#" aria-controls="table" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="table" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item "><a href="#" aria-controls="table" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class="paginate_button page-item "><a href="#" aria-controls="table" data-dt-idx="4" tabindex="0" class="page-link">4</a></li><li class="paginate_button page-item "><a href="#" aria-controls="table" data-dt-idx="5" tabindex="0" class="page-link">5</a></li><li class="paginate_button page-item disabled" id="table_ellipsis"><a href="#" aria-controls="table" data-dt-idx="6" tabindex="0" class="page-link">…</a></li><li class="paginate_button page-item "><a href="#" aria-controls="table" data-dt-idx="7" tabindex="0" class="page-link">487</a></li><li class="paginate_button page-item next" id="table_next"><a href="#" aria-controls="table" data-dt-idx="8" tabindex="0" class="page-link"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li></ul></div></div></div></div></div></div></div> <div id="modalOrderInfo" tabindex="-1" role="dialog" aria-labelledby="modalOrderInfo" aria-hidden="true" class="modal fade"><div role="document" class="modal-dialog"><div class="modal-content"><h4 class="bl-title">
+                 Информация
+             </h4> <div class="mb-4 mt-4"><div class="pr text-left"> из </div> <div class="progress"><div role="progressbar progress-bar-striped progress-bar-animated" class="progress-bar" style="background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); background-size: 1rem 1rem;"></div></div></div> <p class="mb-4">
+                 Ссылка:  <a target="_blank" href="function link() {
+    [native code]
+}"><i aria-hidden="true" class="fa fa-external-link-square"></i></a><br>
+                 ID задачи: <b></b><br>
+                 Дата создания: <br>
+                 Цена задачи:  <i aria-hidden="true" class="fa fa-rub"></i><br>
+                 Статус: <br> <!----> <!----></p><!----> <!----> <p></p> <div><button type="button" data-dismiss="modal" class="z1-btn z1-btn-secondary btn-sm">Закрыть</button></div></div></div></div></div>
+<script>
+window.addEventListener("load", function(){
+    var orderApp = new Vue({
+        el: '#orderApp',
+        data: {
+            order: '',
+            nowOrder: 0,
+            ordersType: 1,
+            types: [
+                {name: 'Все задачи', type: 0},
+                {name: 'Лайки', type: 1},
+                {name: 'Комментарии', type: 2},
+                {name: 'Репосты', type: 3},
+                {name: 'Youtube просмотры', type: 6},
+                {name: 'Лайки подписчиков', type: 7},
+                {name: 'Интервальные комментарии', type: 10},
+                {name: 'Лайки комментариев', type: 9},
+                {name: 'Комментарии с ответами', type: 11},
+                {name: 'Умные лайки', type: 14},
+                {name: 'Умные комментарии', type: 15},
+                {name: 'Умные репосты', type: 18},
+                {name: 'Умные комментарии с ответами', type: 20},
+                {name: 'Instagram лайки', type: 22},
+                {name: 'Сценарии', type: 23},
+            ],
+            currentType: {}
+        },
+        methods: {
+            getInfo: function (orderId) {
+                if (orderId) {
+                    this.nowOrder = orderId;
+                    this.order = '';
+                }
+                if (!this.nowOrder) {
+                    return;
+                }
+                axios.get((this.ordersType === 1 ? "/panel/tasks/status/" : "/panel/tasks/instaOrderStatus/") + this.nowOrder).then(response => {
+                    this.order = response.data;
+                    $('#modalOrderInfo').modal('show');
+                    if (this.order.rstarus === 1) {
+                        setTimeout(this.getInfo, 3000);
+                    }
+                });
+            },
+            setOrders(type) {
+                this.ordersType = type;
+
+                if (type === 1) {
+                    table.ajax.url('https://z1y1x1.ru/panel/main/get_orders').load();
+                } else if (type === 2) {
+                    table.ajax.url('https://z1y1x1.ru/panel/tasks/instaOrders').load();
+                }
+            },
+            showType(type) {
+                this.currentType = type;
+                table.ajax.url('https://z1y1x1.ru/panel/main/get_orders?type=' + type.type).load();
+            }
+        },
+        created() {
+            this.currentType = this.types[0];
+        }
+    });
+
+    $('#modalOrderInfo').on('hidden.bs.modal', function () {
+        orderApp.nowOrder = 0;
+    })
+
+    lang.searchPlaceholder = "12345 или wall-11_11";
+
+    var table = $('#table').DataTable({
+        order: [],
+        responsive: true,
+        "language": lang,
+        "columnDefs": [
+            { className: "btns-right", "targets": [ 4 ] }
+        ],
+        "ajax": {
+            "url": "https://z1y1x1.ru/panel/main/get_orders",
+            "dataType": "json",
+        },
+        "processing": true,
+        "serverSide": true,
+    });
+
+    $("#reset").click(function () {
+        table.ajax.url('https://z1y1x1.ru/panel/main/get_orders').load();
+    });
+    $(document).ready(function(){
+        $('.dropdown-toggle').dropdown()
+    });
+});
+</script>
+                    </div>
+                </div>
+            </div>
+        <script src="/assets/js/scripts.js"></script>
+        <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+            function replaceImages() {
+                $('.logo').find('img').attr('src', '/assets/images/logo-inv-nw.svg');
+                $('.card-money').find('img').attr('src', '/assets/images/ruble-inv.svg?2');
+                $('img').each(function(){
+                    if ($(this).attr('src') == '/assets/images/icons/edit.svg') {
+                        $(this).attr('src', '/assets/images/icons/edit-inv.svg')
+                    }
+                    if ($(this).attr('src') == '/assets/images/sun.svg?2') {
+                        $(this).attr('src', '/assets/images/moon.svg')
+                    }
+                });
+                window.addEventListener("load", function(event) {
+                    $($('.smart-item')[0]).find('img').attr('src', '/assets/images/icons/smart-inv.svg?3');
+                    $('.story-item').find('img').attr('src', '/assets/images/icons/story-inv.svg?3');
+                    $('img').each(function(){
+                        if ($(this).attr('src') == '/assets/images/paysystems/qiwi.svg') {
+                            $(this).attr('src', '/assets/images/paysystems-inv/qiwi.svg')
+                        }
+                        if ($(this).attr('src') == '/assets/images/paysystems/webmoney.svg') {
+                            $(this).attr('src', '/assets/images/paysystems-inv/webmoney.svg')
+                        }
+                        if ($(this).attr('src') == '/assets/images/paysystems/mastercard.svg') {
+                            $(this).attr('src', '/assets/images/paysystems-inv/mastercard.svg')
+                        }
+                        if ($(this).attr('src') == '/assets/images/paysystems/yandex_money.svg') {
+                            $(this).attr('src', '/assets/images/paysystems-inv/yandex_money.svg')
+                        }
+                    });
+                });
+            }
+            function changeTheme() {
+                localStorage.setItem('dayTheme', localStorage.getItem('dayTheme') != 'white' ? 'white' : '');
+                window.location.reload();
+            }
+            if (localStorage.getItem('dayTheme') == 'white') {
+                replaceImages();
+                $('head').append('<link rel="stylesheet" type="text/css" href="/assets/css/white-panel.css?2">');
+            }
+        </script>
+        <script type="text/javascript" src="https://cdn.datatables.net/v/bs4-4.1.1/dt-1.10.18/fh-3.1.4/r-2.2.2/sc-1.5.0/datatables.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
+        <script src="/assets/js/panel.script.js?14"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue-bootstrap-datetimepicker@5"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.js"></script>
+
+        <!-- Chatra {literal} -->
+        <script>
+            window.ChatraSetup = {
+                colors: {
+                    buttonText: '#ffffff', /* chat button text color */
+                    buttonBg: '#8D5BFF'    /* chat button background color */
+                }
+            };
+            window.ChatraIntegration = {
+                /* main properties */
+                name: 'nurlan21',
+                email: 'nurlan.turarov@yandex.ru',
+                phone: '',
+                notes: '',
+                'ID': '2226',
+                'money': '8721.715'
+            };
+            (function(d, w, c) {
+                w.ChatraID = 'qeeWwsrSCJCAAzDGr';
+                var s = d.createElement('script');
+                w[c] = w[c] || function() {
+                    (w[c].q = w[c].q || []).push(arguments);
+                };
+                s.async = true;
+                s.src = 'https://call.chatra.io/chatra.js';
+                if (d.head) d.head.appendChild(s);
+            })(document, window, 'Chatra');
+        </script>
+        <!-- /Chatra {/literal} -->
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P6SNQ9C');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6SNQ9C"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+                            })
+</script>
+    
+
+<div id="chatra" data-turbolinks-permanent="" class="chatra--side-bottom chatra--pos-right chatra--style-tab chatra--visible" style="width: 142px; height: 40px; transform: none; z-index: 9999;"><div id="chatra__iframe-wrapper"><iframe id="chatra__iframe" allowtransparency="true" title="Chatra live chat" allow="autoplay" style="width: 380px; height: 600px; position: absolute;" src="https://chat.chatra.io/?isModern=true#hostId=qeeWwsrSCJCAAzDGr&amp;mode=widget&amp;clientId=x07VcjCgnHMvCazw3hudypo6LeazL0KYz3vktij_&amp;lang=en&amp;currentPage=https%3A%2F%2Fz1y1x1.ru%2Fpanel&amp;currentPageTitle=Z1Y1X1%20-%20%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F&amp;prevPage=https%3A%2F%2Fz1y1x1.ru%2Fpanel%2Fautolikes%3Flogin%3Dtrue&amp;referrer=" frameborder="0"></iframe></div></div>
+<script type="text/javascript" id="">(function(a,e,f,g,b,c,d){a[b]=a[b]||function(){(a[b].a=a[b].a||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(50064154,"init",{clickmap:!0,trackLinks:!0,accurateTrackBounce:!0,webvisor:!0});</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50064154" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+</body></html>

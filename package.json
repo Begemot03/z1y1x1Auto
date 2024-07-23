@@ -1,0 +1,19 @@
+{
+  "name": "tablesautomatics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "jsdoc": "^3.6.11",
+    "needle": "^3.1.0",
+    "nodemon": "^2.0.19",
+    "selenium-webdriver": "^4.4.0"
+  }
+}

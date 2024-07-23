@@ -1,0 +1,806 @@
+
+    <table id="exchange_requests_list_table" class="exchange_table">
+  <tbody><tr>
+    <th class="title">Запись</th>
+    <th class="club">Площадка</th>
+    <th class="info">Размещение</th>
+    <th class="status">Статус</th>
+  </tr>
+  <tr id="exchange_request30333531" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755923">5кар_черные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/itaksodet" class="group_link">И так сойдет!</a>
+    </div>
+    <div class="size">
+      1<span class="num_delim"> </span>100<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>222</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 19:35</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(144962203, 4755923, 30333531, 1, '64ace6dc902e3d958a', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30333521" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/nepizdi18" class="group_link">Грязные Приколы</a>
+    </div>
+    <div class="size">
+      350<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>257</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 21:40</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(141844023, 4755925, 30333521, 1, '0bf24603877451e92b', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30333500" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755923">5кар_черные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/crazy_celentano" class="group_link">Безумный Челентано</a>
+    </div>
+    <div class="size">
+      1<span class="num_delim"> </span>400<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>514</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 19:25</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(112290210, 4755923, 30333500, 1, '676eda684f0d53dc04', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30333479" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/pozorno777" class="group_link">Позорно из соцсетей</a>
+    </div>
+    <div class="size">
+      1<span class="num_delim"> </span>000<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>685</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 20:25</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(105938722, 4755925, 30333479, 1, '828a6b6d09a92fe497', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30333458" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755927">тест3_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/1ife_is_1ife" class="group_link">Жизненный юмор</a>
+    </div>
+    <div class="size">
+      200<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>171</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 19:40</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(93418835, 4755927, 30333458, 1, 'a2d6be67a226bae9d0', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30333321" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755922">2мерса_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/musicavto777" class="group_link">Музыка в машину</a>
+    </div>
+    <div class="size">
+      1<span class="num_delim"> </span>300<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>480</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 23:15</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(73074329, 4755922, 30333321, 1, '404f3b90630751a7e7', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30333308" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/first_cognitive" class="group_link">Первый Познавательный</a>
+    </div>
+    <div class="size">
+      1<span class="num_delim"> </span>200<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>394</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 21:10</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(70870022, 4755925, 30333308, 1, 'eda520b785eb95a5a4', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30333298" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755927">тест3_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/mensrecipes" class="group_link">МЯСО | Мужская кухня</a>
+    </div>
+    <div class="size">
+      1<span class="num_delim"> </span>600<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>685</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 22:45</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(68988957, 4755927, 30333298, 1, 'dc6a8d30c271aaa69a', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30333131" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755927">тест3_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/hd_bum" class="group_link">НОВИНКИ КИНО 2023 | НОВЫЕ ФИЛЬМЫ</a>
+    </div>
+    <div class="size">
+      1<span class="num_delim"> </span>700<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>617</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 20:40</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(62481395, 4755927, 30333131, 1, '7c9e4f57039be9c5a7', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30333120" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755923">5кар_черные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/vk_ad_umor" class="group_link">Адский юмор</a>
+    </div>
+    <div class="size">
+      1<span class="num_delim"> </span>700<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>514</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 22:05</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(60532209, 4755923, 30333120, 1, 'fb86bfd8644e8300d3', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30333104" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/90e_sssr" class="group_link">Ностальгия.</a>
+    </div>
+    <div class="size">
+      1<span class="num_delim"> </span>400<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>428</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 19:05</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(60109889, 4755925, 30333104, 1, 'fbb529a02692534325', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30332798" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/jdm_drift" class="group_link">Дрифт</a>
+    </div>
+    <div class="size">
+      420<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>257</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 22:20</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(58168203, 4755925, 30332798, 1, 'c7234fca080d799d76', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30332292" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755922">2мерса_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/genius1z" class="group_link">ИНТЕРЕСНО !</a>
+    </div>
+    <div class="size">
+      1<span class="num_delim"> </span>500<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>771</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 18:05</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(54365244, 4755922, 30332292, 1, '7da8d079e43fbce5cd', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30332282" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/lecki" class="group_link">Рыбалка</a>
+    </div>
+    <div class="size">
+      110<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>234</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 18:10</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(51912247, 4755925, 30332282, 1, '45b4987cb8422b3ce6', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30332261" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755923">5кар_черные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/hunting.oxota" class="group_link">Охота</a>
+    </div>
+    <div class="size">
+      210<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>514</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 19:15</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(46575440, 4755923, 30332261, 1, 'e403b91542d70a4411', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30332251" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/prikolist321" class="group_link">Приколы</a>
+    </div>
+    <div class="size">
+      2<span class="num_delim"> </span>000<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>514</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 19:20</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(44758045, 4755925, 30332251, 1, '8b6f91b4e0e0c3b7c8', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30332244" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/best_history_films" class="group_link">Исторические фильмы</a>
+    </div>
+    <div class="size">
+      140<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>257</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 21:05</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(43361498, 4755925, 30332244, 1, '37af39f446453dfbe2', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30332229" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755923">5кар_черные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/vkhdkino" class="group_link">НОВИНКИ КИНО 2023</a>
+    </div>
+    <div class="size">
+      1<span class="num_delim"> </span>000<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>771</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 22:35</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(42788054, 4755923, 30332229, 1, '5da121abf41485df59', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30332189" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/formen" class="group_link">4MEN</a>
+    </div>
+    <div class="size">
+      1<span class="num_delim"> </span>600<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>685</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 19:35</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(40587282, 4755925, 30332189, 1, '130fa85e2f75d6fa2b', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30332166" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755923">5кар_черные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/vk_sportmotiv" class="group_link">Just Sport | Бодибилдинг | Фитнес | ММА | ЗОЖ</a>
+    </div>
+    <div class="size">
+      420<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>342</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 21:50</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(34674900, 4755923, 30332166, 1, '8915035e5003fc7219', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30332153" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/hum.page" class="group_link">Убойный юмор</a>
+    </div>
+    <div class="size">
+      1<span class="num_delim"> </span>200<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>300</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 21:05</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(33335832, 4755925, 30332153, 1, '5e57c1ef2367a99d85', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30331803" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755927">тест3_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/pro100mens" class="group_link">Men`s School</a>
+    </div>
+    <div class="size">
+      150<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>171</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 19:10</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(28926134, 4755927, 30331803, 1, 'bb590f980f2790af3c', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30331623" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755923">5кар_черные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/motorists_avto" class="group_link">Журнал автомобилиста</a>
+    </div>
+    <div class="size">
+      29<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>171</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 21:50</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(206199133, 4755923, 30331623, 1, 'eb50d1b6b1fb69f036', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30331472" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755927">тест3_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/movies_kinoo" class="group_link">Фильмы 18+</a>
+    </div>
+    <div class="size">
+      130<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>685</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 22:27</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(187516827, 4755927, 30331472, 1, '700f9d06869db4b638', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30331418" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755927">тест3_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/prikoli_ot_svina" class="group_link">Видео  от Свина</a>
+    </div>
+    <div class="size">
+      630<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>771</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 21:15</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(199010366, 4755927, 30331418, 1, '80fa244cde9cbc8a38', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30331301" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/public200018694" class="group_link">Царство Мужика</a>
+    </div>
+    <div class="size">
+      290<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>342</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 22:20</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(200018694, 4755925, 30331301, 1, 'd7fa8a7c6cac9d56ce', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30331277" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/superanegdott" class="group_link">Перец</a>
+    </div>
+    <div class="size">
+      630<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>514</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 19:25</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(134791174, 4755925, 30331277, 1, '408901237581bba69a', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30331249" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/play_move" class="group_link">ЛУЧШИЕ ФИЛЬМЫ И КИНО 2023</a>
+    </div>
+    <div class="size">
+      420<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>342</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 20:50</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(161190391, 4755925, 30331249, 1, 'ff1d2482d0202a6fb2', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30331210" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755923">5кар_черные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/muzhikclup" class="group_link">Шальной мужик</a>
+    </div>
+    <div class="size">
+      220<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>257</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 18:35</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(164565790, 4755923, 30331210, 1, '94cdd69729ba567bf6', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30331203" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755925">5кар_красные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/krivyyeruki" class="group_link">Кривые Руки</a>
+    </div>
+    <div class="size">
+      460<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>428</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 19:17</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(165935205, 4755925, 30331203, 1, '8f9b8aac83b8c4cd3c', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30331195" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755923">5кар_черные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/stroyka3" class="group_link">Глаза боятся, руки делают!</a>
+    </div>
+    <div class="size">
+      650<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>450</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 21:55</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(167402094, 4755923, 30331195, 1, 'cd2d3cca7b0cbecebe', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30331178" class="exchange_request_row even">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755927">тест3_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/kinoboxhd" class="group_link">Лучшие новинки кино 2023</a>
+    </div>
+    <div class="size">
+      280<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>286</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 21:35</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(183942994, 4755927, 30331178, 1, '6d9d06f9be33ce9c1c', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr><tr id="exchange_request30331097" class="exchange_request_row ">
+  <td class="exchange_request_task">
+    <div class="title">
+      <a href="/adsmarket?act=post&amp;ad_id=4755923">5кар_черные_старый_личка</a>
+    </div>
+  </td>
+  <td class="exchange_request_club">
+    <div class="title">
+      <a href="/public195581241" class="group_link">Аристотель | Наука и жизнь</a>
+    </div>
+    <div class="size">
+      200<span class="num_delim"> </span>000 подписчиков
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_price">
+      <div class="extra_info"><span class="grey">Цена:</span><b>342</b> руб.</div><div class="extra_info"><span class="grey">Будет опубликована:</span><br>сегодня в 21:25</div>
+    </div>
+  </td>
+  <td>
+    <div class="exchange_request_status">
+      <span class="green"><b>Ожидает публикации</b></span><div class="extra_info"><a onclick="return AdsMarket.deleteRequest(195581241, 4755923, 30331097, 1, 'c011df9a8cebce9e10', 1);">Отменить заявку</a></div>
+    </div>
+  </td>
+</tr>
+</tbody></table>
+<div class="fl_r pages_bottom">
+  <a class="pg_lnk_sel fl_l" href="/adsmarket?act=overview&amp;union_id=2002882960&amp;offset=0"><div class="pg_in">1</div></a><a class="pg_lnk fl_l" href="/adsmarket?act=overview&amp;union_id=2002882960&amp;offset=10" onclick="return AdsMarket.getPage(10)"><div class="pg_in">2</div></a><a class="pg_lnk fl_l" href="/adsmarket?act=overview&amp;union_id=2002882960&amp;offset=20" onclick="return AdsMarket.getPage(20)"><div class="pg_in">3</div></a><a class="pg_lnk fl_l" href="/adsmarket?act=overview&amp;union_id=2002882960&amp;offset=30" onclick="return AdsMarket.getPage(30)"><div class="pg_in">»</div></a>
+</div>
+  
